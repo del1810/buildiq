@@ -1,0 +1,78 @@
+﻿{
+  "eyebrow": "VISITOR PROFILE",
+  "title": "Meet the Professionals Shaping the Future of Buildings",
+  "subtitle": "BUILDIQ is designed to attract a professional audience involved in the planning, design, construction, automation, integration, procurement and management of modern buildings.",
+  "groups": [
+    {
+      "id": "vg-1",
+      "groupTitle": "Architecture, Design & Real Estate Development",
+      "description": "Visionaries, project owners and planners defining residential, commercial and institutional developments.",
+      "icon": "Compass",
+      "audiences": [
+        { "id": "vc-01", "title": "Real estate developers and builders", "icon": "Building2" },
+        { "id": "vc-02", "title": "Architects and architectural consultants", "icon": "Compass" },
+        { "id": "vc-03", "title": "Interior designers and design consultants", "icon": "Layout" },
+        { "id": "vc-13", "title": "Commercial building owners and operators", "icon": "Landmark" },
+        { "id": "vc-14", "title": "Hotel, hospital and institutional project representatives", "icon": "Hotel" }
+      ]
+    },
+    {
+      "id": "vg-2",
+      "groupTitle": "Engineering, MEP, HVAC & Electrical Contracting",
+      "description": "Technical consultants and contracting specialists specifying and deploying core building systems.",
+      "icon": "Zap",
+      "audiences": [
+        { "id": "vc-04", "title": "MEP consultants and engineering professionals", "icon": "Settings" },
+        { "id": "vc-05", "title": "Electrical consultants and contractors", "icon": "Zap" },
+        { "id": "vc-12", "title": "HVAC consultants and contractors", "icon": "Wind" },
+        { "id": "vc-17", "title": "Government and public infrastructure representatives", "icon": "Shield" }
+      ]
+    },
+    {
+      "id": "vg-3",
+      "groupTitle": "Automation, System Integration, IT & Security",
+      "description": "Technology integrators connecting hardware, software, networks and intelligent building automation.",
+      "icon": "Cpu",
+      "audiences": [
+        { "id": "vc-06", "title": "Smart home and building automation integrators", "icon": "Home" },
+        { "id": "vc-07", "title": "System integrators and technology solution providers", "icon": "Workflow" },
+        { "id": "vc-10", "title": "IT and networking professionals", "icon": "Network" },
+        { "id": "vc-11", "title": "Security and surveillance solution providers", "icon": "ShieldCheck" }
+      ]
+    },
+    {
+      "id": "vg-4",
+      "groupTitle": "Facility Management, Channel Partners & Procurement",
+      "description": "Operational leaders, corporate administration heads, procurement specialists and trade distribution partners.",
+      "icon": "Briefcase",
+      "audiences": [
+        { "id": "vc-08", "title": "Facility and property management companies", "icon": "Sliders" },
+        { "id": "vc-09", "title": "Corporate infrastructure and administration heads", "icon": "Users" },
+        { "id": "vc-15", "title": "Industrial facility managers", "icon": "Factory" },
+        { "id": "vc-16", "title": "Dealers, distributors and resellers", "icon": "Share2" },
+        { "id": "vc-18", "title": "Project management and procurement professionals", "icon": "CheckCircle2" }
+      ]
+    }
+  ],
+  "allCategories": [
+    { "id": "vc-01", "title": "Real estate developers and builders", "group": "Development & Design", "icon": "Building2" },
+    { "id": "vc-02", "title": "Architects and architectural consultants", "group": "Development & Design", "icon": "Compass" },
+    { "id": "vc-03", "title": "Interior designers and design consultants", "group": "Development & Design", "icon": "Layout" },
+    { "id": "vc-04", "title": "MEP consultants and engineering professionals", "group": "Engineering & MEP", "icon": "Settings" },
+    { "id": "vc-05", "title": "Electrical consultants and contractors", "group": "Engineering & MEP", "icon": "Zap" },
+    { "id": "vc-06", "title": "Smart home and building automation integrators", "group": "Automation & IT", "icon": "Home" },
+    { "id": "vc-07", "title": "System integrators and technology solution providers", "group": "Automation & IT", "icon": "Workflow" },
+    { "id": "vc-08", "title": "Facility and property management companies", "group": "Operations & Trade", "icon": "Sliders" },
+    { "id": "vc-09", "title": "Corporate infrastructure and administration heads", "group": "Operations & Trade", "icon": "Users" },
+    { "id": "vc-10", "title": "IT and networking professionals", "group": "Automation & IT", "icon": "Network" },
+    { "id": "vc-11", "title": "Security and surveillance solution providers", "group": "Automation & IT", "icon": "ShieldCheck" },
+    { "id": "vc-12", "title": "HVAC consultants and contractors", "group": "Engineering & MEP", "icon": "Wind" },
+    { "id": "vc-13", "title": "Commercial building owners and operators", "group": "Development & Design", "icon": "Landmark" },
+    { "id": "vc-14", "title": "Hotel, hospital and institutional project representatives", "group": "Development & Design", "icon": "Hotel" },
+    { "id": "vc-15", "title": "Industrial facility managers", "group": "Operations & Trade", "icon": "Factory" },
+    { "id": "vc-16", "title": "Dealers, distributors and resellers", "group": "Operations & Trade", "icon": "Share2" },
+    { "id": "vc-17", "title": "Government and public infrastructure representatives", "group": "Engineering & MEP", "icon": "Shield" },
+    { "id": "vc-18", "title": "Project management and procurement professionals", "group": "Operations & Trade", "icon": "CheckCircle2" }
+  ]
+}
+

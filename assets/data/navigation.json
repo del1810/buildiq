@@ -1,0 +1,62 @@
+[
+  {
+    "label": "Home",
+    "shortLabel": "Home",
+    "path": "index.html",
+    "subtext": "Overview, highlights, exhibition dates"
+  },
+  {
+    "label": "About BUILDIQ",
+    "shortLabel": "About",
+    "path": "about.html",
+    "subtext": "About the expo, market opportunity"
+  },
+  {
+    "label": "Exhibit Profile",
+    "shortLabel": "Exhibit Profile",
+    "path": "exhibit-profile.html",
+    "subtext": "Product categories, technology spectrum"
+  },
+  {
+    "label": "Why Exhibit",
+    "shortLabel": "Why Exhibit",
+    "path": "why-exhibit.html",
+    "subtext": "Exhibitor benefits, who should exhibit"
+  },
+  {
+    "label": "Visitor Profile",
+    "shortLabel": "Visitor Profile",
+    "path": "visitor-profile.html",
+    "subtext": "Target professional visitor categories"
+  },
+  {
+    "label": "Why Visit",
+    "shortLabel": "Why Visit",
+    "path": "why-visit.html",
+    "subtext": "Visitor benefits, solution evaluation"
+  },
+  {
+    "label": "Concurrent Exhibitions",
+    "shortLabel": "Concurrent Exhibitions",
+    "path": "concurrent-exhibitions.html",
+    "subtext": "ICONMEQ, ICONMAT, ELVISION, PROPAINT"
+  },
+  {
+    "label": "Sponsors & Partners",
+    "shortLabel": "Sponsors",
+    "path": "sponsors.html",
+    "subtext": "Sponsorship, association partnerships"
+  },
+  {
+    "label": "Media & Updates",
+    "shortLabel": "Media",
+    "path": "media.html",
+    "subtext": "News, announcements, gallery"
+  },
+  {
+    "label": "Contact",
+    "shortLabel": "Contact",
+    "path": "contact.html",
+    "subtext": "Exhibitor, visitor, sponsorship & venue details"
+  }
+]

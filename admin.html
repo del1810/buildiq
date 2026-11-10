@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Admin Portal – BUILDIQ 2027 Content &amp; Enquiry Management</title>
+  <link rel="icon" type="image/png" href="assets/images/buildiq-logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body style="background:var(--color-light);">
+  <div id="site-header"></div>
+
+  <main id="main-content" class="section">
+    <div class="container">
+      <!-- Auth Gate -->
+      <div id="admin-login-box" class="form-card" style="max-width:480px; margin:40px auto;">
+        <div class="eyebrow"><span class="slash">/</span><span>AUTHORIZED ACCESS ONLY</span></div>
+        <h2 style="font-size:1.6rem; margin-bottom:8px;">BUILDIQ 2027 Admin Console</h2>
+        <p style="color:var(--color-muted); font-size:0.9rem; margin-bottom:20px;">
+          Restricted to authorized FAIR CONNECTS INDIA LLP personnel. Enter administrator passcode to view enquiries or publish news updates.
+        </p>
+        <form id="admin-auth-form">
+          <div class="form-field" style="margin-bottom:16px;">
+            <label class="form-label" for="admin-passcode">Administrator Passcode</label>
+            <input type="password" id="admin-passcode" class="form-input" placeholder="Enter passcode (Default: FCI2027)" required />
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%;">Unlock Admin Console</button>
+          <div id="admin-auth-error" class="form-error-msg" style="margin-top:8px;"></div>
+        </form>
+      </div>
+
+      <!-- Protected Dashboard -->
+      <div id="admin-dashboard" style="display:none;">
+        <div style="display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:16px; margin-bottom:28px;">
+          <div>
+            <div class="eyebrow"><span class="slash">/</span><span>FCI ADMIN MANAGEMENT</span></div>
+            <h1 style="font-size:2rem;">Enquiries &amp; Media Management</h1>
+          </div>
+          <div style="display:flex; gap:10px;">
+            <button type="button" id="admin-export-btn" class="btn btn-secondary btn-sm">Export Current View (JSON)</button>
+            <button type="button" id="admin-logout-btn" class="btn btn-outline-red btn-sm">Lock Console</button>
+          </div>
+        </div>
+
+        <div class="form-tabs-bar" id="admin-tabs">
+          <button type="button" class="form-tab-btn active" data-entity="ExhibitorEnquiries">Exhibitor Enquiries</button>
+          <button type="button" class="form-tab-btn" data-entity="VisitorRegistrations">Visitor Registrations</button>
+          <button type="button" class="form-tab-btn" data-entity="SponsorshipEnquiries">Sponsorship Enquiries</button>
+          <button type="button" class="form-tab-btn" data-entity="ContactEnquiries">Contact Enquiries</button>
+          <button type="button" class="form-tab-btn" data-entity="News">Manage News &amp; Updates</button>
+        </div>
+
+        <div id="admin-records-mount" class="form-card"></div>
+      </div>
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/components.js"></script>
+  <script src="assets/js/forms.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const loginBox = document.getElementById('admin-login-box');
+      const dashBox = document.getElementById('admin-dashboard');
+      const authForm = document.getElementById('admin-auth-form');
+      const errEl = document.getElementById('admin-auth-error');
+      const mount = document.getElementById('admin-records-mount');
+      let currentEntity = 'ExhibitorEnquiries';
+
+      function renderEntityView(entityName) {
+        currentEntity = entityName;
+        const records = window.BUILDIQ_FORMS.getEntityRecords(entityName);
+
+        if (entityName === 'News') {
+          mount.innerHTML = `
+            <h3 style="margin-bottom:14px;">Publish Official News / Announcement</h3>
+            <form id="admin-news-form" class="form-grid" style="margin-bottom:32px; padding-bottom:24px; border-bottom:1px solid var(--color-border);">
+              <div class="form-field">
+                <label class="form-label">Headline Title *</label>
+                <input type="text" name="title" class="form-input" required placeholder="e.g. Exhibitor Bookings Open for BUILDIQ 2027" />
+              </div>
+              <div class="form-field">
+                <label class="form-label">Category Tag *</label>
+                <input type="text" name="category" class="form-input" required placeholder="e.g. Press Release" />
+              </div>
+              <div class="form-field col-span-2">
+                <label class="form-label">Short Summary *</label>
+                <textarea name="summary" class="form-textarea" style="min-height:80px;" required placeholder="Enter official announcement summary..."></textarea>
+              </div>
+              <div class="form-field col-span-2">
+                <button type="submit" class="btn btn-primary">Publish Announcement</button>
+              </div>
+            </form>
+            <h4 style="margin-bottom:12px;">Published Announcements (${records.length})</h4>
+            ${records.length === 0 ? '<p style="color:var(--color-muted);">No custom announcements published yet. The public Media page displays the official empty state.</p>' : ''}
+            <div style="display:flex; flex-direction:column; gap:10px;">
+              ${records.map((r) => `<div style="padding:14px; background:var(--color-light); border-radius:8px; border:1px solid var(--color-border); display:flex; justify-content:space-between; align-items:center;"><div><strong>${r.title}</strong> <span style="font-size:0.8rem; color:var(--color-secondary);">(${r.category})</span><p style="font-size:0.86rem; color:var(--color-muted);">${r.summary}</p></div></div>`).join('')}
+            </div>
+          `;
+
+          const newsForm = document.getElementById('admin-news-form');
+          if (newsForm) {
+            newsForm.addEventListener('submit', function (e) {
+              e.preventDefault();
+              window.BUILDIQ_FORMS.saveEntityRecord('News', {
+                title: newsForm.elements.title.value.trim(),
+                category: newsForm.elements.category.value.trim(),
+                summary: newsForm.elements.summary.value.trim(),
+                date: new Date().toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' }),
+                published: true
+              });
+              renderEntityView('News');
+            });
+          }
+          return;
+        }
+
+        if (records.length === 0) {
+          mount.innerHTML = `<p style="color:var(--color-muted); text-align:center; padding:28px;">No records submitted yet in <strong>${entityName}</strong>.</p>`;
+          return;
+        }
+
+        mount.innerHTML = `
+          <h3 style="margin-bottom:16px;">${entityName} (${records.length} Submissions)</h3>
+          <div style="overflow-x:auto;">
+            <table style="width:100%; border-collapse:collapse; font-size:0.86rem;">
+              <thead>
+                <tr style="background:var(--color-light); text-align:left; border-bottom:2px solid var(--color-border);">
+                  <th style="padding:10px;">Ref ID</th>
+                  <th style="padding:10px;">Date</th>
+                  <th style="padding:10px;">Name</th>
+                  <th style="padding:10px;">Company</th>
+                  <th style="padding:10px;">Email &amp; Mobile</th>
+                  <th style="padding:10px;">Details</th>
+                </tr>
+              </thead>
+              <tbody>
+                ${records
+                  .map(
+                    (r) => `
+                  <tr style="border-bottom:1px solid var(--color-border);">
+                    <td style="padding:10px; font-weight:700; color:var(--color-primary);">${r.id}</td>
+                    <td style="padding:10px;">${new Date(r.submittedAt).toLocaleString()}</td>
+                    <td style="padding:10px; font-weight:600;">${r.fullName || r.contactName || '-'}</td>
+                    <td style="padding:10px;">${r.companyName || '-'}</td>
+                    <td style="padding:10px;">${r.email}<br/>${r.mobile}</td>
+                    <td style="padding:10px;">${r.productCategory || r.industry || r.sponsorshipInterest || r.enquiryType || ''} ${r.city ? '• ' + r.city : ''}</td>
+                  </tr>
+                `
+                  )
+                  .join('')}
+              </tbody>
+            </table>
+          </div>
+        `;
+      }
+
+      authForm.addEventListener('submit', function (e) {
+        e.preventDefault();
+        const code = document.getElementById('admin-passcode').value.trim();
+        if (code === 'FCI2027' || code === 'BUILDIQ2027') {
+          loginBox.style.display = 'none';
+          dashBox.style.display = 'block';
+          renderEntityView('ExhibitorEnquiries');
+        } else {
+          errEl.textContent = 'Invalid administrator passcode.';
+        }
+      });
+
+      document.querySelectorAll('#admin-tabs [data-entity]').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          document.querySelectorAll('#admin-tabs [data-entity]').forEach((b) => b.classList.remove('active'));
+          btn.classList.add('active');
+          renderEntityView(btn.getAttribute('data-entity'));
+        });
+      });
+
+      document.getElementById('admin-logout-btn').addEventListener('click', function () {
+        dashBox.style.display = 'none';
+        loginBox.style.display = 'block';
+        document.getElementById('admin-passcode').value = '';
+      });
+
+      document.getElementById('admin-export-btn').addEventListener('click', function () {
+        const data = window.BUILDIQ_FORMS.getEntityRecords(currentEntity);
+        const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = currentEntity + '-export.json';
+        a.click();
+      });
+    });
+  </script>
+</body>
+</html>
+

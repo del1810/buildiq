@@ -1,0 +1,115 @@
+﻿{
+  "eyebrow": "SPONSOR & PARTNER WITH BUILDIQ",
+  "title": "Maximise Brand Visibility. Strengthen Industry Presence. Build Strategic Partnerships.",
+  "introParagraphs": [
+    "BUILDIQ offers a range of sponsorship and partnership opportunities for organisations seeking to enhance brand visibility, demonstrate technological leadership and engage with key stakeholders across the smart building and intelligent infrastructure ecosystem.",
+    "As a focused B2B industry platform, BUILDIQ provides sponsors with opportunities to connect with developers, architects, consultants, contractors, system integrators, facility managers, technology professionals and prospective business partners."
+  ],
+  "closingNote": "BUILDIQ welcomes technology brands, industry leaders, manufacturers, service providers and organisations interested in building meaningful industry associations. All sponsorship benefits, branding inventory and deliverables will be subject to the approved sponsorship proposal and availability.",
+  "tiers": [
+    {
+      "id": "sp-title",
+      "name": "Title & Presenting",
+      "badge": "Premier Tier",
+      "icon": "Crown",
+      "description": "Exclusive flagship positioning across all exhibition touchpoints, main entrance arches, keynote stage and official marketing campaigns.",
+      "highlights": [
+        "Title or Presenting credit with official BUILDIQ 2027 branding",
+        "Prime island exhibition space at the main hall entrance",
+        "Keynote speaking & VIP inauguration prominence",
+        "Omnichannel digital, print and on-site branding dominance"
+      ]
+    },
+    {
+      "id": "sp-platinum",
+      "name": "Platinum Sponsorship",
+      "badge": "Executive Tier",
+      "icon": "Award",
+      "description": "High-impact executive visibility designed for global smart building and automation market leaders.",
+      "highlights": [
+        "Premium exhibition booth in high-footfall technology zone",
+        "High-visibility branding across registration & conference zones",
+        "Dedicated product demonstration & launch session slot",
+        "Priority B2B stakeholder introduction support"
+      ]
+    },
+    {
+      "id": "sp-gold",
+      "name": "Gold Sponsorship",
+      "badge": "Strategic Tier",
+      "icon": "Star",
+      "description": "Strategic multi-channel brand exposure tailored for established technology manufacturers and solution providers.",
+      "highlights": [
+        "Preferred exhibition space location",
+        "Logo placement on official event signage & visitor guide",
+        "Inclusion in pre-event digital & media promotions",
+        "Knowledge session participation opportunity"
+      ]
+    },
+    {
+      "id": "sp-silver",
+      "name": "Silver Sponsorship",
+      "badge": "Growth Tier",
+      "icon": "Shield",
+      "description": "Targeted brand reinforcement for growing smart building brands expanding across South India and national markets.",
+      "highlights": [
+        "Co-branded visibility across key venue touchpoints",
+        "Digital catalog & website sponsor recognition",
+        "On-site directional & pavilion branding inclusions",
+        "VIP networking pass allocation"
+      ]
+    },
+    {
+      "id": "sp-branding",
+      "name": "Branding Opportunities",
+      "badge": "Custom Inventory",
+      "icon": "Sparkles",
+      "description": "High-visibility physical and digital branding formats across Chennai Trade Centre.",
+      "highlights": [
+        "Entrance and registration branding",
+        "Main stage and conference branding",
+        "Digital and promotional media visibility",
+        "Special branding and promotional integrations"
+      ]
+    },
+    {
+      "id": "sp-demos",
+      "name": "Product Demonstrations",
+      "badge": "Live Experience",
+      "icon": "Presentation",
+      "description": "Showcase live IoT, BMS, lighting and automation workflows in action before specifiers and buyers.",
+      "highlights": [
+        "Product demonstration and launch opportunities",
+        "Knowledge sessions and industry presentations",
+        "Interactive smart-space experience zones",
+        "Direct technical Q&A with project consultants"
+      ]
+    },
+    {
+      "id": "sp-partnerships",
+      "name": "Industry Partnerships",
+      "badge": "Ecosystem Alliance",
+      "icon": "Handshake",
+      "description": "Collaborative associations for trade bodies, engineering councils, media platforms and knowledge institutions.",
+      "highlights": [
+        "Visitor engagement and networking opportunities",
+        "Industry association & institutional partnerships",
+        "Trade media & technology publication alliances",
+        "Delegation & knowledge exchange collaborations"
+      ]
+    }
+  ],
+  "officialOpportunitiesList": [
+    "Title and presenting sponsorship.",
+    "Platinum, Gold and Silver sponsorships.",
+    "Premium exhibition space.",
+    "Entrance and registration branding.",
+    "Main stage and conference branding.",
+    "Digital and promotional media visibility.",
+    "Product demonstration and launch opportunities.",
+    "Knowledge sessions and industry presentations.",
+    "Visitor engagement and networking opportunities.",
+    "Special branding and promotional integrations."
+  ]
+}
+

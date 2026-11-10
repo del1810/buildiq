@@ -1,0 +1,71 @@
+{
+  "sectionsConfig": [
+    { "id": "hero", "enabled": true, "order": 1 },
+    { "id": "tech-strip", "enabled": true, "order": 2 },
+    { "id": "about", "enabled": true, "order": 3 },
+    { "id": "exhibit-profile", "enabled": true, "order": 4 },
+    { "id": "why-buildiq", "enabled": true, "order": 5 },
+    { "id": "who-should-exhibit", "enabled": true, "order": 6 },
+    { "id": "visitor-profile", "enabled": true, "order": 7 },
+    { "id": "why-visit", "enabled": true, "order": 8 },
+    { "id": "market-opportunity", "enabled": true, "order": 9 },
+    { "id": "concurrent-exhibitions", "enabled": true, "order": 10 },
+    { "id": "sponsors", "enabled": true, "order": 11 },
+    { "id": "venue", "enabled": true, "order": 12 },
+    { "id": "media", "enabled": true, "order": 13 },
+    { "id": "final-cta", "enabled": true, "order": 14 }
+  ],
+  "technologyStrip": [
+    { "id": "ts-1", "title": "Smart Home Automation", "icon": "home", "slug": "smart-home-automation" },
+    { "id": "ts-2", "title": "Building Management Systems", "icon": "building", "slug": "building-management-systems" },
+    { "id": "ts-3", "title": "IoT & Connectivity", "icon": "wifi", "slug": "networking-connected-infrastructure" },
+    { "id": "ts-4", "title": "Intelligent Lighting", "icon": "lightbulb", "slug": "intelligent-lighting-technologies" },
+    { "id": "ts-5", "title": "Security & Surveillance", "icon": "shield", "slug": "smart-security-surveillance" },
+    { "id": "ts-6", "title": "Energy Management", "icon": "zap", "slug": "energy-management-smart-electrical-solutions" }
+  ],
+  "aboutSection": {
+    "eyebrow": "WELCOME TO BUILDIQ 2027",
+    "title": "The Business Platform for Smart Buildings, Intelligent Spaces and Connected Technologies",
+    "lead": "A focused B2B exhibition bringing together the latest innovations, technologies, products and solutions shaping the future of residential, commercial and industrial buildings.",
+    "paragraphs": [
+      "As buildings evolve into intelligent, connected and energy-efficient environments, the demand for integrated technologies is transforming the way people live, work and interact with spaces. BUILDIQ provides a dedicated business platform for manufacturers, technology providers, solution integrators, developers, architects, consultants, contractors and industry professionals to discover emerging innovations and explore new business opportunities.",
+      "From smart home automation and intelligent lighting to integrated building management systems, security, networking, energy management and advanced building technologies, BUILDIQ brings together the complete ecosystem of intelligent building solutions under one roof.",
+      "Scheduled from 14–16 May 2027 at Chennai Trade Centre, Chennai, BUILDIQ aims to facilitate meaningful industry connections, product discovery, technology exchange and business development across India's growing smart building and infrastructure markets."
+    ],
+    "closingStatement": "Discover the technologies. Connect with the industry. Shape the future of intelligent buildings.",
+    "highlights": [
+      { "value": "3", "label": "Days", "icon": "calendar" },
+      { "value": "10", "label": "Product Categories", "icon": "building" },
+      { "value": "18+", "label": "Visitor Profiles", "icon": "users" },
+      { "value": "5", "label": "Concurrent Expos", "icon": "layers" }
+    ]
+  },
+  "marketOpportunity": {
+    "eyebrow": "MARKET OPPORTUNITY",
+    "title": "The Growing Demand for Intelligent Buildings in India",
+    "paragraphs": [
+      "India's building and infrastructure landscape is undergoing a significant transformation. Rapid urbanisation, expanding commercial developments, modern residential projects, digital infrastructure and increasing technology adoption are creating new opportunities for smart building solutions.",
+      "The growing focus on energy efficiency, operational optimisation, occupant comfort, security and connected building management is encouraging developers and building owners to adopt intelligent technologies.",
+      "Smart home automation, intelligent lighting, integrated security, building management systems, IoT-enabled devices and energy monitoring solutions are increasingly relevant across residential and commercial applications.",
+      "BUILDIQ aims to provide a focused business platform for companies seeking to participate in these evolving market opportunities."
+    ],
+    "driversTitle": "Key Market Drivers",
+    "drivers": [
+      { "id": "md-1", "text": "Growth in residential and commercial real estate.", "icon": "building" },
+      { "id": "md-2", "text": "Expansion of IT parks, corporate campuses and office developments.", "icon": "cpu" },
+      { "id": "md-3", "text": "Increasing adoption of smart home technologies.", "icon": "home" },
+      { "id": "md-4", "text": "Demand for energy-efficient buildings and intelligent electrical systems.", "icon": "zap" },
+      { "id": "md-5", "text": "Greater emphasis on safety, security and access management.", "icon": "shield" },
+      { "id": "md-6", "text": "Growing use of IoT, sensors and connected technologies.", "icon": "wifi" },
+      { "id": "md-7", "text": "Modernisation of hospitals, hotels, educational institutions and industrial facilities.", "icon": "layers" },
+      { "id": "md-8", "text": "Increasing demand for integrated building management and automation.", "icon": "sliders" }
+    ]
+  },
+  "finalCta": {
+    "eyebrow": "JOIN THE ECOSYSTEM",
+    "title": "Be Part of the Future of Intelligent Buildings",
+    "subtitle": "Discover technologies, connect with industry leaders, and explore business opportunities at BUILDIQ 2027.",
+    "primaryCta": { "label": "Book a Stall", "path": "contact.html?form=exhibitor-enquiry" },
+    "secondaryCta": { "label": "Register to Visit", "path": "contact.html?form=visitor-registration" }
+  }
+}

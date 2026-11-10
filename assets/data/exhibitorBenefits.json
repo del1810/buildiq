@@ -1,0 +1,137 @@
+﻿{
+  "whyBuildiq": {
+    "eyebrow": "WHY BUILDIQ?",
+    "title": "A Focused Platform for the Intelligent Building Industry",
+    "subtitle": "BUILDIQ offers participating organisations an opportunity to engage with a diverse professional audience across the building, construction, electrical, automation and infrastructure sectors.",
+    "benefits": [
+      {
+        "id": "wb-1",
+        "title": "Showcase Technology Innovations",
+        "description": "Present the latest smart building products, intelligent systems and integrated solutions to a targeted industry audience.",
+        "icon": "Sparkles",
+        "tag": "Product Showcase"
+      },
+      {
+        "id": "wb-2",
+        "title": "Connect with Decision-Makers",
+        "description": "Engage with architects, developers, consultants, contractors, system integrators and facility management professionals.",
+        "icon": "Users",
+        "tag": "B2B Networking"
+      },
+      {
+        "id": "wb-3",
+        "title": "Expand Market Reach",
+        "description": "Strengthen brand visibility and explore business opportunities across Tamil Nadu, South India and other Indian markets.",
+        "icon": "Globe",
+        "tag": "Market Expansion"
+      },
+      {
+        "id": "wb-4",
+        "title": "Develop Channel Partnerships",
+        "description": "Connect with dealers, distributors, resellers, electrical contractors and technology solution providers.",
+        "icon": "Handshake",
+        "tag": "Channel Growth"
+      },
+      {
+        "id": "wb-5",
+        "title": "Generate Business Enquiries",
+        "description": "Interact with prospective buyers, project stakeholders, specifiers and technology adopters.",
+        "icon": "TrendingUp",
+        "tag": "Lead Generation"
+      },
+      {
+        "id": "wb-6",
+        "title": "Introduce New Products",
+        "description": "Demonstrate new technologies, product innovations and integrated solutions.",
+        "icon": "Rocket",
+        "tag": "Product Launches"
+      },
+      {
+        "id": "wb-7",
+        "title": "Explore Project Opportunities",
+        "description": "Build relationships with professionals involved in residential, commercial, industrial and institutional developments.",
+        "icon": "Building",
+        "tag": "Project Pipeline"
+      },
+      {
+        "id": "wb-8",
+        "title": "Strengthen Industry Presence",
+        "description": "Position your organisation within the rapidly evolving smart building and intelligent infrastructure ecosystem.",
+        "icon": "Award",
+        "tag": "Brand Leadership"
+      }
+    ]
+  },
+  "whyExhibitPillars": {
+    "eyebrow": "WHY EXHIBIT AT BUILDIQ?",
+    "title": "Turn Technology Innovation into Business Opportunities",
+    "subtitle": "BUILDIQ provides a focused environment for companies seeking to expand their market presence, connect with industry professionals and strengthen their position in the intelligent building sector.",
+    "pillars": [
+      {
+        "id": "we-1",
+        "number": "01",
+        "title": "Connect with the Right Audience",
+        "description": "Meet architects, interior designers, developers, consultants, contractors, system integrators, facility managers and technology decision-makers.",
+        "icon": "UserCheck"
+      },
+      {
+        "id": "we-2",
+        "number": "02",
+        "title": "Expand Your Dealer and Distribution Network",
+        "description": "Engage with electrical dealers, automation distributors, technology resellers, system integrators and regional channel partners.",
+        "icon": "Share2"
+      },
+      {
+        "id": "we-3",
+        "number": "03",
+        "title": "Promote Your Products and Solutions",
+        "description": "Demonstrate your latest innovations, integrated technologies and application-based solutions to a relevant professional audience.",
+        "icon": "Presentation"
+      },
+      {
+        "id": "we-4",
+        "number": "04",
+        "title": "Develop Business Relationships",
+        "description": "Build connections with project developers, infrastructure companies, commercial establishments, institutional buyers and other potential customers.",
+        "icon": "Briefcase"
+      },
+      {
+        "id": "we-5",
+        "number": "05",
+        "title": "Strengthen Brand Visibility",
+        "description": "Increase your organisation's visibility among stakeholders involved in the specification, procurement and deployment of smart building technologies.",
+        "icon": "Eye"
+      },
+      {
+        "id": "we-6",
+        "number": "06",
+        "title": "Explore Emerging Markets",
+        "description": "Position your products and services in the expanding markets for intelligent homes, smart offices, connected buildings and energy-efficient infrastructure.",
+        "icon": "Compass"
+      }
+    ]
+  },
+  "whoShouldExhibit": {
+    "eyebrow": "WHO SHOULD EXHIBIT?",
+    "title": "An Opportunity for Technology Manufacturers, Brands and Solution Providers",
+    "subtitle": "BUILDIQ welcomes organisations offering products, technologies and services across the smart building ecosystem, including:",
+    "categories": [
+      { "id": "wse-01", "title": "Smart home technology manufacturers", "icon": "Home" },
+      { "id": "wse-02", "title": "Home and building automation companies", "icon": "Sliders" },
+      { "id": "wse-03", "title": "BMS and IBMS solution providers", "icon": "Server" },
+      { "id": "wse-04", "title": "Smart electrical product manufacturers", "icon": "Zap" },
+      { "id": "wse-05", "title": "Lighting manufacturers and technology brands", "icon": "Lightbulb" },
+      { "id": "wse-06", "title": "Security, surveillance and access control companies", "icon": "ShieldCheck" },
+      { "id": "wse-07", "title": "Audio-visual and communication technology providers", "icon": "MonitorSpeaker" },
+      { "id": "wse-08", "title": "HVAC automation and climate control companies", "icon": "Wind" },
+      { "id": "wse-09", "title": "Energy management and monitoring solution providers", "icon": "Activity" },
+      { "id": "wse-10", "title": "IoT technology and software companies", "icon": "Cpu" },
+      { "id": "wse-11", "title": "Networking and connectivity solution providers", "icon": "Wifi" },
+      { "id": "wse-12", "title": "Smart switches, sensors and control device manufacturers", "icon": "ToggleRight" },
+      { "id": "wse-13", "title": "System integrators and technology consultants", "icon": "Workflow" },
+      { "id": "wse-14", "title": "Dealers, distributors and channel partners", "icon": "Network" },
+      { "id": "wse-15", "title": "Smart building infrastructure and engineering companies", "icon": "Building2" }
+    ]
+  }
+}
+

@@ -1,0 +1,62 @@
+﻿{
+  "eyebrow": "WHY VISIT BUILDIQ?",
+  "title": "Discover Technologies. Evaluate Solutions. Build Business Connections.",
+  "subtitle": "BUILDIQ offers visitors an opportunity to explore emerging technologies and identify practical solutions for residential, commercial and industrial buildings.",
+  "closingNote": "Whether you are an architect, developer, consultant, contractor, system integrator, facility manager or technology buyer, BUILDIQ offers a professional environment to discover solutions for the next generation of buildings.",
+  "coreBenefits": [
+    {
+      "id": "vb-1",
+      "title": "Discover Smart Technologies",
+      "description": "Discover the latest smart home and building automation technologies alongside intelligent lighting, security and energy management solutions.",
+      "icon": "Cpu",
+      "highlight": "Technology Discovery"
+    },
+    {
+      "id": "vb-2",
+      "title": "Evaluate Products",
+      "description": "Compare products and technologies from multiple manufacturers and understand how connected technologies can improve building performance.",
+      "icon": "Sliders",
+      "highlight": "Product Evaluation"
+    },
+    {
+      "id": "vb-3",
+      "title": "Meet Manufacturers",
+      "description": "Interact directly with product specialists, R&D engineers and technology providers demonstrating live smart building systems.",
+      "icon": "Users",
+      "highlight": "Direct Engagement"
+    },
+    {
+      "id": "vb-4",
+      "title": "Connect with Suppliers",
+      "description": "Identify suitable suppliers, dealers and system integration partners across all ten intelligent building categories.",
+      "icon": "Handshake",
+      "highlight": "Supplier Networking"
+    },
+    {
+      "id": "vb-5",
+      "title": "Explore Project Solutions",
+      "description": "Explore solutions for ongoing and upcoming building projects across smart offices, intelligent homes and commercial infrastructure.",
+      "icon": "Building2",
+      "highlight": "Project Opportunities"
+    },
+    {
+      "id": "vb-6",
+      "title": "Build Industry Relationships",
+      "description": "Develop new professional and business relationships with peers, technology innovators and infrastructure leaders.",
+      "icon": "Network",
+      "highlight": "Industry Connections"
+    }
+  ],
+  "officialChecklist": [
+    "Discover the latest smart home and building automation technologies.",
+    "Explore intelligent lighting, security and energy management solutions.",
+    "Compare products and technologies from multiple manufacturers.",
+    "Interact directly with product specialists and technology providers.",
+    "Identify suitable suppliers, dealers and system integration partners.",
+    "Explore solutions for ongoing and upcoming building projects.",
+    "Understand how connected technologies can improve building performance.",
+    "Discover innovations in smart offices, intelligent homes and commercial infrastructure.",
+    "Develop new professional and business relationships."
+  ]
+}
+

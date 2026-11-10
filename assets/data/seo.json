@@ -1,0 +1,63 @@
+{
+  "default": {
+    "title": "BUILDIQ 2027 – Smart Building & Home Automation Expo Chennai, India",
+    "description": "Visit BUILDIQ 2027, International Smart Building & Intelligent Infrastructure Expo, from 14–16 May 2027 at Chennai Trade Centre. Explore smart home automation, BMS, intelligent lighting, security, IoT and connected building technologies.",
+    "keywords": [
+      "Smart Building Expo India",
+      "Smart Home Expo Chennai",
+      "Building Automation Exhibition India",
+      "Smart Home Automation Exhibition",
+      "Intelligent Building Technologies Expo",
+      "BMS and IBMS Exhibition India",
+      "IoT Building Technology Expo",
+      "Smart Lighting Exhibition India",
+      "Building Management Systems Expo",
+      "Smart Infrastructure Expo South India",
+      "Home Automation Exhibition Chennai",
+      "Smart Security and Surveillance Expo",
+      "Building Technology Exhibition 2027"
+    ]
+  },
+  "pages": {
+    "index.html": {
+      "title": "BUILDIQ 2027 – Smart Building & Home Automation Expo Chennai, India",
+      "description": "Visit BUILDIQ 2027, International Smart Building & Intelligent Infrastructure Expo, from 14–16 May 2027 at Chennai Trade Centre. Explore smart home automation, BMS, intelligent lighting, security, IoT and connected building technologies."
+    },
+    "about.html": {
+      "title": "About BUILDIQ 2027 – Building the Future of Intelligent Spaces | Chennai",
+      "description": "Learn about BUILDIQ 2027 (14–16 May 2027, Chennai Trade Centre), organised by FAIR CONNECTS INDIA LLP. Discover India's B2B platform for smart buildings, IoT and intelligent infrastructure."
+    },
+    "exhibit-profile.html": {
+      "title": "Exhibit Profile – 10 Smart Building Technology Categories | BUILDIQ 2027",
+      "description": "Explore the 10 official exhibit categories at BUILDIQ 2027: Smart Home Automation, BMS & IBMS, Intelligent Lighting, Security, AV, Smart HVAC, Energy Management, Networking, Software & Integrated Smart Spaces."
+    },
+    "why-exhibit.html": {
+      "title": "Why Exhibit at BUILDIQ 2027 – Showcase Smart Building Innovations",
+      "description": "Turn technology innovation into business opportunities at BUILDIQ 2027. Connect with architects, developers, MEP consultants, system integrators and channel partners in Chennai."
+    },
+    "visitor-profile.html": {
+      "title": "Visitor Profile – Architects, Developers, Integrators & Consultants | BUILDIQ 2027",
+      "description": "Meet the professionals shaping the future of buildings at BUILDIQ 2027, including developers, architects, MEP consultants, electrical contractors, system integrators and facility managers."
+    },
+    "why-visit.html": {
+      "title": "Why Visit BUILDIQ 2027 – Discover Smart Home & Building Automation Solutions",
+      "description": "Discover technologies, evaluate products from multiple manufacturers, and connect with smart building solution providers at BUILDIQ 2027, Chennai Trade Centre."
+    },
+    "concurrent-exhibitions.html": {
+      "title": "Concurrent Exhibitions – ICONMEQ, ICONMAT, ELVISION & PROPAINT | BUILDIQ 2027",
+      "description": "Explore the complete building technology ecosystem at Chennai Trade Centre. BUILDIQ 2027 is co-located with ICONMEQ, ICONMAT, ELVISION and PROPAINT."
+    },
+    "sponsors.html": {
+      "title": "Sponsors & Partners – Brand Visibility & Strategic Partnerships | BUILDIQ 2027",
+      "description": "Maximise brand visibility and demonstrate technological leadership with Title, Presenting, Platinum, Gold and Silver sponsorship opportunities at BUILDIQ 2027."
+    },
+    "media.html": {
+      "title": "Media & Updates – News, Announcements & Technology Gallery | BUILDIQ 2027",
+      "description": "Official news, announcements, press updates and smart building technology gallery for BUILDIQ 2027 at Chennai Trade Centre."
+    },
+    "contact.html": {
+      "title": "Contact & Venue – Exhibitor, Visitor & Sponsorship Enquiries | BUILDIQ 2027",
+      "description": "Connect with FAIR CONNECTS INDIA LLP for BUILDIQ 2027 exhibitor stall bookings, visitor registration, sponsorship opportunities and Chennai Trade Centre venue & travel details."
+    }
+  }
+}

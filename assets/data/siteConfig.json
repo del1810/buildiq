@@ -1,0 +1,55 @@
+{
+  "siteName": "BUILDIQ 2027",
+  "brandWordmark": "BuildiQ",
+  "eventYear": "2027",
+  "eventName": "International Smart Building & Intelligent Infrastructure Expo",
+  "tagline": "Connecting Technologies. Transforming Buildings. Enabling Intelligent Living.",
+  "mainDescription": "BUILDIQ 2027 – International Smart Building & Intelligent Infrastructure Expo is a focused B2B exhibition bringing together the latest innovations, technologies, products and solutions shaping the future of residential, commercial and industrial buildings.",
+  "secondaryDescription": "It connects manufacturers, technology providers, solution integrators, developers, architects, consultants, contractors, and industry professionals.",
+  "startDate": "2027-05-14",
+  "endDate": "2027-05-16",
+  "dateDisplay": "14–16 May 2027",
+  "durationDays": "3 Days",
+  "venue": "Chennai Trade Centre",
+  "venueSubArea": "Nandambakkam, Chennai",
+  "city": "Chennai",
+  "state": "Tamil Nadu",
+  "country": "India",
+  "fullLocation": "Chennai Trade Centre, Chennai, Tamil Nadu, India",
+  "organizer": "FAIR CONNECTS INDIA LLP",
+  "organizerShort": "FCI",
+  "organizerLocation": "Chennai, Tamil Nadu, India",
+  "contactStatusNote": "Contact details and enquiry links managed by the FAIR CONNECTS INDIA LLP (FCI) exhibition team.",
+  "logos": {
+    "primary": "assets/images/buildiq-logo.png",
+    "organizer": "assets/images/logos/fairconnects-logo.png",
+    "organizerDark": "assets/images/logos/fairconnects-logo.png"
+  },
+  "theme": {
+    "primary": "#013C7E",
+    "secondary": "#E43025",
+    "dark": "#071A32",
+    "navy": "#102B46",
+    "light": "#F5F8FC",
+    "white": "#FFFFFF",
+    "text": "#10233F",
+    "muted": "#64748B",
+    "border": "#DCE5F0"
+  },
+  "ctas": {
+    "primary": {
+      "label": "Book a Stall",
+      "path": "contact.html?form=exhibitor-enquiry"
+    },
+    "secondary": {
+      "label": "Register to Visit",
+      "path": "contact.html?form=visitor-registration"
+    },
+    "sponsor": {
+      "label": "Become a Sponsor",
+      "path": "sponsors.html#sponsorship-enquiry"
+    }
+  },
+  "mapDirectionsUrl": "https://www.google.com/maps/search/?api=1&query=Chennai+Trade+Centre+Nandambakkam+Chennai",
+  "mapEmbedUrl": "https://www.google.com/maps?q=Chennai+Trade+Centre,+Nandambakkam,+Chennai,+Tamil+Nadu&output=embed"
+}

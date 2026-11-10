@@ -1,0 +1,60 @@
+{
+  "eyebrow": "CONCURRENT EXHIBITIONS",
+  "title": "A Complete Building Technology Ecosystem",
+  "subtitle": "Connecting Multiple Industries. Creating Greater Business Opportunities.",
+  "introParagraphs": [
+    "Modern buildings require the integration of several technologies and product categories. BUILDIQ is strategically planned alongside other specialised industry exhibitions to create opportunities for cross-sector interaction.",
+    "BUILDIQ will be organised concurrently with specialised construction and allied industry exhibitions at Chennai Trade Centre. This combined exhibition platform is intended to bring together a wider spectrum of manufacturers, suppliers, technology providers, dealers, distributors, project developers and industry professionals.",
+    "Visitors can explore multiple product categories and business solutions during a single visit, while exhibitors can benefit from broader industry interaction across related sectors."
+  ],
+  "closingNote": "The concurrent exhibition platform creates opportunities for visitors and industry professionals to explore multiple aspects of the construction and building ecosystem at one destination.",
+  "exhibitions": [
+    {
+      "id": "ce-iconmeq",
+      "code": "ICONMEQ",
+      "fullName": "International Construction Machineries & Equipment Expo",
+      "focus": "Construction machinery, equipment and technologies.",
+      "logo": "assets/images/logos/iconmeq-logo.png",
+      "image": "assets/images/chennai-trade-centre-hall.png",
+      "sector": "Heavy Construction & Machinery",
+      "synergy": "Connects heavy project contractors and civil infrastructure developers with intelligent building systems."
+    },
+    {
+      "id": "ce-iconmat",
+      "code": "ICONMAT",
+      "fullName": "International Construction Materials Expo",
+      "focus": "Building materials, construction products and solutions.",
+      "logo": "assets/images/logos/iconmat-logo.png",
+      "image": "assets/images/smart-building-tower.jpg",
+      "sector": "Smart Materials & Structural Solutions",
+      "synergy": "Brings architects, specifiers and builders sourcing architectural envelopes alongside smart automation."
+    },
+    {
+      "id": "ce-elvision",
+      "code": "ELVISION",
+      "fullName": "Electrical Industry Expo",
+      "focus": "Electrical products, systems and power solutions.",
+      "logo": "assets/images/logos/elvision-logo.png",
+      "image": "assets/images/energy-smart-electrical.png",
+      "sector": "Electrical Systems & Power Infrastructure",
+      "synergy": "Direct synergy with smart switchgear, energy monitoring, MEP consultants and electrical contractors."
+    },
+    {
+      "id": "ce-propaint",
+      "code": "PROPAINT",
+      "fullName": "International Paints & Coating Products Expo",
+      "focus": "Paint products, coatings, finishes and related solutions.",
+      "logo": "assets/images/logos/propaint-logo.png",
+      "image": "assets/images/integrated-smart-spaces.png",
+      "sector": "Architectural Finishes & Protective Coatings",
+      "synergy": "Attracts interior designers, commercial developers and facility finishing specialists."
+    }
+  ],
+  "flagship": {
+    "id": "ce-buildiq",
+    "code": "BUILDIQ",
+    "fullName": "International Smart Building & Intelligent Infrastructure Expo",
+    "focus": "Smart homes, building automation and connected technologies.",
+    "logo": "assets/images/buildiq-logo.png"
+  }
+}

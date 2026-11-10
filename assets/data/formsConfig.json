@@ -1,0 +1,175 @@
+{
+  "exhibitor-enquiry": {
+    "formId": "exhibitor-enquiry",
+    "entityName": "ExhibitorEnquiries",
+    "badge": "EXHIBITOR PARTICIPATION",
+    "title": "Exhibitor Stall Enquiry",
+    "subtitle": "Submit your details to enquire about exhibition space, stall configurations and participation at BUILDIQ 2027 (14–16 May 2027, Chennai Trade Centre).",
+    "submitLabel": "Submit Exhibitor Enquiry",
+    "fields": [
+      { "name": "fullName", "label": "Full Name", "type": "text", "placeholder": "Enter your full name", "required": true, "colSpan": 1 },
+      { "name": "companyName", "label": "Company Name", "type": "text", "placeholder": "Your organisation / brand name", "required": true, "colSpan": 1 },
+      { "name": "email", "label": "Email Address", "type": "email", "placeholder": "name@company.com", "required": true, "colSpan": 1 },
+      { "name": "mobile", "label": "Mobile Number", "type": "tel", "placeholder": "+91 98765 43210", "required": true, "colSpan": 1 },
+      { "name": "designation", "label": "Designation", "type": "text", "placeholder": "e.g. Managing Director / VP Sales", "required": true, "colSpan": 1 },
+      {
+        "name": "productCategory",
+        "label": "Product Category",
+        "type": "select",
+        "required": true,
+        "colSpan": 1,
+        "options": [
+          "1. Smart Home Automation",
+          "2. Building Management Systems (BMS / IBMS)",
+          "3. Intelligent Lighting Technologies",
+          "4. Smart Security & Surveillance",
+          "5. Audio-Visual & Communication Solutions",
+          "6. Smart HVAC & Climate Management",
+          "7. Energy Management & Smart Electrical Solutions",
+          "8. Networking & Connected Infrastructure",
+          "9. Smart Building Technologies & Software",
+          "10. Integrated Smart Space Solutions",
+          "Other Smart Building Solutions"
+        ]
+      },
+      { "name": "city", "label": "City", "type": "text", "placeholder": "e.g. Chennai", "required": true, "colSpan": 1 },
+      { "name": "state", "label": "State", "type": "text", "placeholder": "e.g. Tamil Nadu", "required": true, "colSpan": 1 },
+      { "name": "message", "label": "Message / Stall Requirement", "type": "textarea", "placeholder": "Tell us about your products, preferred stall size or specific requirements...", "required": false, "colSpan": 2 },
+      {
+        "name": "consent",
+        "label": "I consent to FAIR CONNECTS INDIA LLP contacting me regarding exhibitor participation and official updates for BUILDIQ 2027.",
+        "type": "checkbox",
+        "required": true,
+        "colSpan": 2
+      }
+    ]
+  },
+  "visitor-registration": {
+    "formId": "visitor-registration",
+    "entityName": "VisitorRegistrations",
+    "badge": "TRADE VISITOR REGISTRATION",
+    "title": "Register to Visit BUILDIQ 2027",
+    "subtitle": "Pre-register as a trade visitor for BUILDIQ 2027 from 14–16 May 2027 at Chennai Trade Centre, Chennai.",
+    "submitLabel": "Complete Visitor Registration",
+    "fields": [
+      { "name": "fullName", "label": "Full Name", "type": "text", "placeholder": "Enter your full name", "required": true, "colSpan": 1 },
+      { "name": "companyName", "label": "Company / Firm Name", "type": "text", "placeholder": "Your organisation name", "required": true, "colSpan": 1 },
+      { "name": "email", "label": "Email Address", "type": "email", "placeholder": "name@company.com", "required": true, "colSpan": 1 },
+      { "name": "mobile", "label": "Mobile Number", "type": "tel", "placeholder": "+91 98765 43210", "required": true, "colSpan": 1 },
+      { "name": "designation", "label": "Designation", "type": "text", "placeholder": "e.g. Principal Architect / Project Director", "required": true, "colSpan": 1 },
+      {
+        "name": "industry",
+        "label": "Industry / Professional Category",
+        "type": "select",
+        "required": true,
+        "colSpan": 1,
+        "options": [
+          "Real estate developers and builders",
+          "Architects and architectural consultants",
+          "Interior designers and design consultants",
+          "MEP consultants and engineering professionals",
+          "Electrical consultants and contractors",
+          "Smart home and building automation integrators",
+          "System integrators and technology solution providers",
+          "Facility and property management companies",
+          "Corporate infrastructure and administration heads",
+          "IT and networking professionals",
+          "Security and surveillance solution providers",
+          "HVAC consultants and contractors",
+          "Commercial building owners and operators",
+          "Hotel, hospital and institutional project representatives",
+          "Industrial facility managers",
+          "Dealers, distributors and resellers",
+          "Government and public infrastructure representatives",
+          "Project management and procurement professionals"
+        ]
+      },
+      { "name": "city", "label": "City", "type": "text", "placeholder": "e.g. Chennai", "required": true, "colSpan": 1 },
+      { "name": "state", "label": "State", "type": "text", "placeholder": "e.g. Tamil Nadu", "required": true, "colSpan": 1 },
+      {
+        "name": "consent",
+        "label": "I consent to receive my visitor badge confirmation and official event updates from FAIR CONNECTS INDIA LLP for BUILDIQ 2027.",
+        "type": "checkbox",
+        "required": true,
+        "colSpan": 2
+      }
+    ]
+  },
+  "sponsorship-enquiry": {
+    "formId": "sponsorship-enquiry",
+    "entityName": "SponsorshipEnquiries",
+    "badge": "SPONSORSHIP & BRANDING",
+    "title": "Sponsorship & Partnership Enquiry",
+    "subtitle": "Connect with our sponsorship team to receive the official BUILDIQ 2027 sponsorship proposal and custom branding inventory.",
+    "submitLabel": "Request Sponsorship Proposal",
+    "fields": [
+      { "name": "contactName", "label": "Contact Name", "type": "text", "placeholder": "Enter contact person's full name", "required": true, "colSpan": 1 },
+      { "name": "companyName", "label": "Company Name", "type": "text", "placeholder": "Your organisation / brand name", "required": true, "colSpan": 1 },
+      { "name": "email", "label": "Email Address", "type": "email", "placeholder": "name@company.com", "required": true, "colSpan": 1 },
+      { "name": "mobile", "label": "Mobile Number", "type": "tel", "placeholder": "+91 98765 43210", "required": true, "colSpan": 1 },
+      {
+        "name": "sponsorshipInterest",
+        "label": "Sponsorship Interest",
+        "type": "select",
+        "required": true,
+        "colSpan": 2,
+        "options": [
+          "Title & Presenting Sponsorship",
+          "Platinum Sponsorship",
+          "Gold Sponsorship",
+          "Silver Sponsorship",
+          "Entrance & Registration Branding",
+          "Main Stage & Conference Branding",
+          "Product Demonstration & Launch Opportunity",
+          "Knowledge Sessions & Industry Presentations",
+          "Industry Association / Media Partnership"
+        ]
+      },
+      { "name": "message", "label": "Message / Objectives", "type": "textarea", "placeholder": "Share your brand visibility goals or partnership interests...", "required": false, "colSpan": 2 },
+      {
+        "name": "consent",
+        "label": "I consent to FAIR CONNECTS INDIA LLP contacting me regarding sponsorship and strategic partnership opportunities for BUILDIQ 2027.",
+        "type": "checkbox",
+        "required": true,
+        "colSpan": 2
+      }
+    ]
+  },
+  "contact-enquiry": {
+    "formId": "contact-enquiry",
+    "entityName": "ContactEnquiries",
+    "badge": "GENERAL & MEDIA ENQUIRIES",
+    "title": "General, Association & Media Enquiry",
+    "subtitle": "Have a question regarding industry associations, media partnerships, concurrent expos or general information? Send us a message.",
+    "submitLabel": "Send Enquiry",
+    "fields": [
+      { "name": "fullName", "label": "Full Name", "type": "text", "placeholder": "Enter your full name", "required": true, "colSpan": 1 },
+      { "name": "companyName", "label": "Company / Organisation", "type": "text", "placeholder": "Your organisation / publication name", "required": true, "colSpan": 1 },
+      { "name": "email", "label": "Email Address", "type": "email", "placeholder": "name@organisation.com", "required": true, "colSpan": 1 },
+      { "name": "mobile", "label": "Mobile Number", "type": "tel", "placeholder": "+91 98765 43210", "required": true, "colSpan": 1 },
+      {
+        "name": "enquiryType",
+        "label": "Enquiry Type",
+        "type": "select",
+        "required": true,
+        "colSpan": 2,
+        "options": [
+          "Association & Institutional Partnership",
+          "Media & Trade Press Partnership",
+          "Speaker / Knowledge Session Proposal",
+          "Concurrent Exhibitions Enquiry",
+          "General Exhibition Enquiry"
+        ]
+      },
+      { "name": "message", "label": "Your Message", "type": "textarea", "placeholder": "How can the BUILDIQ 2027 exhibition team assist you?", "required": true, "colSpan": 2 },
+      {
+        "name": "consent",
+        "label": "I consent to FAIR CONNECTS INDIA LLP processing my enquiry and contacting me regarding BUILDIQ 2027.",
+        "type": "checkbox",
+        "required": true,
+        "colSpan": 2
+      }
+    ]
+  }
+}
+

@@ -1,0 +1,77 @@
+{
+  "eyebrow": "MEDIA & UPDATES",
+  "title": "Exhibition Announcements, Press & Industry Updates",
+  "subtitle": "Stay informed with official updates, exhibitor showcases, press releases and event milestones from BUILDIQ 2027.",
+  "emptyState": {
+    "title": "Official Press Releases & Announcements Coming Soon",
+    "description": "Official exhibition announcements, keynote schedules, and media releases for BUILDIQ 2027 (14–16 May 2027 at Chennai Trade Centre) will be published here as confirmed by FAIR CONNECTS INDIA LLP.",
+    "ctaLabel": "Media & Association Enquiry",
+    "ctaPath": "contact.html?form=contact-enquiry&subject=Media+%26+Association+Partnership"
+  },
+  "articles": [],
+  "gallery": [
+    {
+      "id": "gal-1",
+      "title": "Smart Home Automation & Touch Control Interfaces",
+      "category": "Smart Home Automation",
+      "image": "assets/images/smart-home-control-panel.png",
+      "caption": "Integrated residential automation, intelligent switches and connected living environments."
+    },
+    {
+      "id": "gal-2",
+      "title": "Centralised Building Management Systems (BMS & IBMS)",
+      "category": "Building Management Systems",
+      "image": "assets/images/building-management-systems.png",
+      "caption": "Real-time building telemetry, IoT sensor analytics and automated command centres."
+    },
+    {
+      "id": "gal-3",
+      "title": "Architectural & Connected LED Lighting Systems",
+      "category": "Intelligent Lighting",
+      "image": "assets/images/intelligent-lighting.png",
+      "caption": "Daylight harvesting, occupancy-driven dimming and smart commercial lighting."
+    },
+    {
+      "id": "gal-4",
+      "title": "Smart Electrical Switchgear & Power Monitoring",
+      "category": "Energy Management",
+      "image": "assets/images/energy-smart-electrical.png",
+      "caption": "Intelligent power distribution, load automation and energy-efficient building infrastructure."
+    },
+    {
+      "id": "gal-5",
+      "title": "Biometric Access & Integrated IP Surveillance",
+      "category": "Smart Security",
+      "image": "assets/images/smart-security-surveillance.png",
+      "caption": "Next-generation perimeter security, smart locks and AI-assisted monitoring platforms."
+    },
+    {
+      "id": "gal-6",
+      "title": "Networking & Fiber Optic Building Infrastructure",
+      "category": "Connected Infrastructure",
+      "image": "assets/images/networking-connected-infrastructure.png",
+      "caption": "High-speed structured cabling, IoT gateways and connected building backbones."
+    },
+    {
+      "id": "gal-7",
+      "title": "Digital Twin & Building Analytics Software",
+      "category": "Smart Building Software",
+      "image": "assets/images/smart-building-software.png",
+      "caption": "Predictive maintenance, 3D building performance modelling and smart facility platforms."
+    },
+    {
+      "id": "gal-8",
+      "title": "Smart HVAC & Precision Climate Controls",
+      "category": "Climate Management",
+      "image": "assets/images/smart-hvac-climate.jpg",
+      "caption": "Intelligent thermostats, indoor air quality monitoring and automated climate optimisation."
+    },
+    {
+      "id": "gal-9",
+      "title": "Connected Commercial Workspaces & AV Boardrooms",
+      "category": "Integrated Smart Spaces",
+      "image": "assets/images/integrated-smart-spaces.png",
+      "caption": "Future-ready commercial offices, boardrooms, hospitality and institutional developments."
+    }
+  ]
+}

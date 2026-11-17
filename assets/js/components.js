@@ -35,7 +35,11 @@
     menu: '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>',
     close: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>',
     leaf: '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg>',
-    newspaper: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8"/><path d="M15 18h-5"/><path d="M10 6h8v4h-8V6Z"/></svg>'
+    newspaper: '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/><path d="M18 14h-8"/><path d="M15 18h-5"/><path d="M10 6h8v4h-8V6Z"/></svg>',
+    phone: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>',
+    mail: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>',
+    stall: '<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m2 7 4.41-4.41A2 2 0 0 1 7.83 2h8.34a2 2 0 0 1 1.42.59L22 7"/><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><path d="M15 22v-4a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v4"/><path d="M2 7h20"/><path d="M22 7v3a2 2 0 0 1-2 2v0a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 16 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 12 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 8 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 4 12v0a2 2 0 0 1-2-2V7"/></svg>',
+    visitorBadge: '<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><polyline points="16 11 18 13 22 9"/></svg>'
   };
 
   function getIcon(name) {
@@ -106,7 +110,7 @@
         label: 'Co-Expos, Sponsors & Media',
         alignRight: true,
         items: [
-          { label: 'Concurrent Exhibitions', path: 'concurrent-exhibitions.html', subtext: 'ICONMEQ, ICONMAT, ELVISION & PROPAINT' },
+          { label: 'Concurrent Exhibitions', path: 'concurrent-exhibitions.html', subtext: 'ICONMEQ, ICONMAT, ELVISION, PROPAINT & PAINTECH' },
           { label: 'Sponsors & Partners', path: 'sponsors.html', subtext: 'Sponsorship tiers & branding opportunities' },
           { label: 'Media & Updates', path: 'media.html', subtext: 'Official news, press & showcase gallery' }
         ]
@@ -177,6 +181,31 @@
 
     headerMount.innerHTML = `
       <a href="#main-content" class="skip-link">Skip to main content</a>
+      <div class="header-topbar" role="region" aria-label="Official Contact & Event Information">
+        <div class="header-topbar-inner">
+          <div class="topbar-contact-group">
+            <a href="tel:+919500532234" class="topbar-contact-link">
+              <span class="topbar-icon">${ICONS.phone}</span>
+              <span>+91 95005 32234</span>
+            </a>
+            <span class="topbar-sep">|</span>
+            <a href="mailto:sales@buildiq.in" class="topbar-contact-link">
+              <span class="topbar-icon">${ICONS.mail}</span>
+              <span>sales@buildiq.in</span>
+            </a>
+          </div>
+          <div class="topbar-event-group">
+            <span class="topbar-highlight-pill topbar-date-pill">
+              ${ICONS.calendar}
+              <strong>14–16 May 2027</strong>
+            </span>
+            <span class="topbar-highlight-pill topbar-venue-pill">
+              ${ICONS.mapPin}
+              <strong>Chennai Trade Centre, Chennai</strong>
+            </span>
+          </div>
+        </div>
+      </div>
       <header class="site-header" id="main-sticky-header" role="banner">
         <div class="header-inner">
           <a href="index.html" class="header-brand" aria-label="BUILDIQ 2027 - Official Home">
@@ -186,6 +215,17 @@
           <nav class="header-nav" aria-label="Primary Navigation">
             ${navLinksHtml}
           </nav>
+
+          <div class="header-actions">
+            <a href="contact.html?form=exhibitor-enquiry" class="header-action-btn header-action-stall" title="Book Your Stall">
+              ${ICONS.stall}
+              <span>Book Your Stall</span>
+            </a>
+            <a href="contact.html?form=visitor-registration" class="header-action-btn header-action-visitor" title="Visitor Registration">
+              ${ICONS.visitorBadge}
+              <span>Visitor Registration</span>
+            </a>
+          </div>
 
           <button type="button" class="mobile-menu-toggle" id="mobile-menu-open" aria-label="Open navigation menu" aria-expanded="false">
             ${ICONS.menu}
@@ -202,9 +242,25 @@
           </button>
         </div>
         <div class="mobile-drawer-body">
+          <div class="mobile-drawer-ctas">
+            <a href="contact.html?form=exhibitor-enquiry" class="header-action-btn header-action-stall" style="width:100%; justify-content:center;">
+              ${ICONS.stall}
+              <span>Book Your Stall</span>
+            </a>
+            <a href="contact.html?form=visitor-registration" class="header-action-btn header-action-visitor" style="width:100%; justify-content:center;">
+              ${ICONS.visitorBadge}
+              <span>Visitor Registration</span>
+            </a>
+          </div>
           <nav class="mobile-nav-list">
             ${mobileNavLinksHtml}
           </nav>
+          <div class="mobile-drawer-contact">
+            <div><strong>Event Dates:</strong> 14–16 May 2027</div>
+            <div><strong>Venue:</strong> Chennai Trade Centre, Chennai</div>
+            <div><strong>Call:</strong> <a href="tel:+919500532234">+91 95005 32234</a></div>
+            <div><strong>Email:</strong> <a href="mailto:sales@buildiq.in">sales@buildiq.in</a></div>
+          </div>
         </div>
       </aside>
     `;
@@ -384,37 +440,56 @@
             </div>
 
             <div class="footer-col">
-              <h4>Official Event Details</h4>
+              <h4>Contact &amp; Event Details</h4>
               <div class="footer-event-list">
-                <div class="footer-event-item">
+                <div class="footer-event-item footer-event-highlight">
                   ${ICONS.calendar}
                   <div>
                     <strong style="color:#fff; display:block;">Exhibition Dates</strong>
-                    <span>14–16 May 2027</span>
+                    <span style="color:#FCA5A5; font-weight:700; font-size:0.95rem;">14–16 May 2027</span>
+                  </div>
+                </div>
+                <div class="footer-event-item footer-event-highlight">
+                  ${ICONS.mapPin}
+                  <div>
+                    <strong style="color:#fff; display:block;">Exhibition Venue</strong>
+                    <span style="color:#93C5FD; font-weight:700;">Chennai Trade Centre</span>
+                    <span style="display:block; font-size:0.82rem; color:rgba(255,255,255,0.78);">Nandambakkam, Chennai – 600089, Tamil Nadu, India</span>
                   </div>
                 </div>
                 <div class="footer-event-item">
-                  ${ICONS.mapPin}
+                  ${ICONS.phone}
                   <div>
-                    <strong style="color:#fff; display:block;">Venue</strong>
-                    <span>Chennai Trade Centre, Chennai, Tamil Nadu, India</span>
+                    <strong style="color:#fff; display:block;">Call Us</strong>
+                    <a href="tel:+919500532234" style="color:rgba(255,255,255,0.88); font-weight:600;">+91 95005 32234</a>
+                  </div>
+                </div>
+                <div class="footer-event-item">
+                  ${ICONS.mail}
+                  <div>
+                    <strong style="color:#fff; display:block;">Email Us</strong>
+                    <a href="mailto:sales@buildiq.in" style="color:#93C5FD; font-weight:600;">sales@buildiq.in</a>
                   </div>
                 </div>
                 <div class="footer-event-item">
                   ${ICONS.building}
                   <div>
-                    <strong style="color:#fff; display:block; margin-bottom:6px;">Organiser</strong>
-                    <img src="assets/images/logos/fairconnects-logo.png" alt="FAIR CONNECTS INDIA LLP" style="height:56px; width:auto; object-fit:contain; display:block;" />
+                    <strong style="color:#fff; display:block;">Organiser Office (FCI)</strong>
+                    <span style="font-size:0.82rem; line-height:1.5; display:block; color:rgba(255,255,255,0.78);">
+                      FAIR CONNECTS INDIA LLP<br />
+                      12C/1, 3rd Cross Street, South Phase Industrial Estate, Guindy, Chennai – 600032, Tamil Nadu, India
+                    </span>
                   </div>
                 </div>
               </div>
-              <div style="margin-top:22px; display:flex; flex-direction:column; gap:10px;">
+              <div style="margin-top:20px; display:flex; flex-direction:column; gap:10px;">
                 <a href="contact.html?form=exhibitor-enquiry" class="btn btn-primary btn-sm" style="width:100%;">
-                  <span>Book a Stall</span>
-                  ${ICONS.arrowRight}
+                  ${ICONS.stall}
+                  <span>Book Your Stall</span>
                 </a>
                 <a href="contact.html?form=visitor-registration" class="btn btn-glass btn-sm" style="width:100%;">
-                  <span>Register to Visit</span>
+                  ${ICONS.visitorBadge}
+                  <span>Visitor Registration</span>
                 </a>
               </div>
             </div>
@@ -440,19 +515,19 @@
           <span>Social</span>
         </div>
         <div class="floating-social-panel">
-          <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" class="floating-social-link" aria-label="LinkedIn" title="LinkedIn">
+          <a href="https://www.linkedin.com/in/fair-connects-india-49ab283b7/" target="_blank" rel="noopener noreferrer" class="floating-social-link" aria-label="LinkedIn" title="LinkedIn">
             <svg viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
           </a>
-          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="floating-social-link" aria-label="Instagram" title="Instagram">
+          <a href="https://www.instagram.com/fair_connects_india/" target="_blank" rel="noopener noreferrer" class="floating-social-link" aria-label="Instagram" title="Instagram">
             <svg viewBox="0 0 24 24"><path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8 1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3z"/></svg>
           </a>
-          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" class="floating-social-link" aria-label="Facebook" title="Facebook">
+          <a href="https://www.facebook.com/profile.php?id=61578481250581" target="_blank" rel="noopener noreferrer" class="floating-social-link" aria-label="Facebook" title="Facebook">
             <svg viewBox="0 0 24 24"><path d="M12 2.04c-5.5 0-10 4.49-10 10.02 0 5 3.66 9.15 8.44 9.9v-7H7.9v-2.9h2.54V9.85c0-2.51 1.49-3.89 3.78-3.89 1.09 0 2.23.19 2.23.19v2.47h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.45 2.9h-2.33v7a10 10 0 0 0 8.44-9.9c0-5.53-4.5-10.02-10-10.02z"/></svg>
           </a>
-          <a href="https://x.com" target="_blank" rel="noopener noreferrer" class="floating-social-link" aria-label="X (Twitter)" title="X">
+          <a href="https://x.com/fair_connects" target="_blank" rel="noopener noreferrer" class="floating-social-link" aria-label="X (Twitter)" title="X">
             <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
           </a>
-          <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" class="floating-social-link" aria-label="YouTube" title="YouTube">
+          <a href="https://www.youtube.com/@FairConnectsIndia" target="_blank" rel="noopener noreferrer" class="floating-social-link" aria-label="YouTube" title="YouTube">
             <svg viewBox="0 0 24 24"><path d="M10 15l5.19-3L10 9v6m11.56-7.83c.13.47.22 1.1.28 1.9.07.8.1 1.49.1 2.09L22 12c0 2.19-.16 3.8-.44 4.83-.25.9-.83 1.48-1.73 1.73-.47.13-1.33.22-2.65.28-1.3.07-2.49.1-3.59.1L12 19c-4.19 0-6.8-.16-7.83-.44-.9-.25-1.48-.83-1.73-1.73-.13-.47-.22-1.1-.28-1.9-.07-.8-.1-1.49-.1-2.09L2 12c0-2.19.16-3.8.44-4.83.25-.9.83-1.48 1.73-1.73.47-.13 1.33-.22 2.65-.28 1.3-.07 2.49-.1 3.59-.1L12 5c4.19 0 6.8.16 7.83.44.9.25 1.48.83 1.73 1.73z"/></svg>
           </a>
         </div>

@@ -48,6 +48,16 @@
       "image": "assets/images/integrated-smart-spaces.png",
       "sector": "Architectural Finishes & Protective Coatings",
       "synergy": "Attracts interior designers, commercial developers and facility finishing specialists."
+    },
+    {
+      "id": "ce-paintech",
+      "code": "PAINTECH",
+      "fullName": "International Paint & Coatings Technology Expo",
+      "focus": "Paint manufacturing technologies, raw materials, surface treatment and industrial coating systems.",
+      "logo": "assets/images/logos/paintech-logo.png",
+      "image": "assets/images/integrated-smart-spaces.png",
+      "sector": "Paint & Surface Coating Technology",
+      "synergy": "Connects industrial surface engineering, protective coating innovators and manufacturing technology specialists."
     }
   ],
   "flagship": {

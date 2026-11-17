@@ -523,7 +523,7 @@ window.BUILDIQ_DATA = {
     { id: "md-8", text: "Increasing demand for integrated building management and automation.", icon: "sliders" }
   ],
 
-  // 12. Concurrent Exhibitions Cards (4 items)
+  // 12. Concurrent Exhibitions Cards (5 items)
   concurrentExhibitions: [
     {
       id: "ce-iconmeq",
@@ -564,6 +564,16 @@ window.BUILDIQ_DATA = {
       image: "assets/images/integrated-smart-spaces.png",
       sector: "Architectural Finishes & Protective Coatings",
       synergy: "Attracts interior designers, commercial developers and facility finishing specialists."
+    },
+    {
+      id: "ce-paintech",
+      code: "PAINTECH",
+      fullName: "International Paint & Coatings Technology Expo",
+      focus: "Paint manufacturing technologies, raw materials, surface treatment and industrial coating systems.",
+      logo: "assets/images/logos/paintech-logo.png",
+      image: "assets/images/integrated-smart-spaces.png",
+      sector: "Paint & Surface Coating Technology",
+      synergy: "Connects industrial surface engineering, protective coating innovators and manufacturing technology specialists."
     }
   ],
 
@@ -775,7 +785,7 @@ window.BUILDIQ_DATA = {
     {
       id: "faq-6",
       question: "Which concurrent exhibitions are held alongside BUILDIQ 2027?",
-      answer: "BUILDIQ 2027 is organised concurrently at Chennai Trade Centre alongside four specialised industry exhibitions: ICONMEQ (International Construction Machineries & Equipment Expo), ICONMAT (International Construction Materials Expo), ELVISION (Electrical Industry Expo), and PROPAINT (International Paints & Coating Products Expo)."
+      answer: "BUILDIQ 2027 is organised concurrently at Chennai Trade Centre alongside five specialised industry exhibitions: ICONMEQ (International Construction Machineries & Equipment Expo), ICONMAT (International Construction Materials Expo), ELVISION (Electrical Industry Expo), PROPAINT (International Paints & Coating Products Expo), and PAINTECH (International Paint & Coatings Technology Expo)."
     }
   ],
 
